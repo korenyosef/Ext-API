@@ -1,0 +1,17 @@
+{
+  "images": {"ext": ".png, .jpg, .jpeg, .gif, .bmp, .tiff, .svg"},
+  "documents": {"ext": [".ppt", ".pptx", ".doc", ".docx", ".pdf", ".txt", ".rtf", ".odt", ".xls", ".xlsx"]},
+  "videos": {"ext": [".mp4", ".mov", ".avi", ".mkv", ".wmv", ".flv", ".mpeg"]},
+  "audio": {"ext": [".mp3", ".wav", ".aac", ".ogg", ".flac", ".wma"]},
+  "archives": {"ext": [".zip", ".rar", ".7z", ".tar", ".gz"]},
+  "spreadsheets": {"ext": [".xls", ".xlsx", ".csv"]},
+  "presentations": {"ext": [".ppt", ".pptx"]},
+  "text": {"ext": [".txt", ".rtf"]},
+  "web": {"ext": [".html", ".htm", ".css", ".js", ".json"]},
+  "programming": {"ext": [".c", ".cpp", ".java", ".py", ".html", ".css", ".js"]},
+  "executable": {"ext": [".exe", ".msi", ".bat", ".sh"]},
+  "fonts": {"ext": [".ttf", ".otf", ".woff", ".woff2"]},
+  "compressed": {"ext": [".zip", ".rar", ".7z", ".tar", ".gz"]},
+  "database": {"ext": [".db", ".sql"]},
+  "system": {"ext": [".dll", ".sys", ".ini"]}
+}
