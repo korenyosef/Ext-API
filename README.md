@@ -1,6 +1,6 @@
-# File Category API
+# File Extension API
 
-This API provides information about file categories based on category names.
+This API provides information about file extensions based on category names.
 
 ## Usage
 
@@ -15,7 +15,7 @@ By default the server is running on http://localhost:3000
 
 
 ### Examples
-Example:
+Request:
 ```http
 GET http://localhost:3000/images
 ```
@@ -32,3 +32,5 @@ If the category is not found, the API will return a 404 error with the following
 }
 ```
 
+## Note
+This API is very simple and basic, please send me an issue if you have an idea of improving the code. Thanks!
