@@ -15,6 +15,7 @@ By default the server is running on http://localhost:3000
 
 
 ### Examples
+
 Request:
 ```http
 GET http://localhost:3000/images
@@ -25,6 +26,35 @@ Response:
   "ext": ".png, .jpg, .jpeg, .gif, .bmp, .tiff, .svg"
 }
 ```
+
+
+Request:
+```http
+GET http://localhost:3000/all 
+```
+Or
+```http
+GET http://localhost:3000/ 
+```
+
+Response:
+```json
+// Gives all the extensions
+{
+"ext": [
+".png",
+".jpg",
+".jpeg",
+".gif",
+".bmp",
+".tiff",
+".svg",
+//Etc...
+]
+}
+```
+
+
 If the category is not found, the API will return a 404 error with the following JSON response:
 ```json
 {
