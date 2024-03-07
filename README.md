@@ -20,7 +20,15 @@ Example:
 GET http://localhost:3000/images
 ```
 Response:
+```json
 {
   "ext": ".png, .jpg, .jpeg, .gif, .bmp, .tiff, .svg"
 }
+```
+If the category is not found, the API will return a 404 error with the following JSON response:
+```json
+{
+  "error": "Category not found"
+}
+```
 
